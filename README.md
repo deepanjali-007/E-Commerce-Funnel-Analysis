@@ -5,7 +5,8 @@ This repository contains a comprehensive funnel analysis for a simple 4-page e-c
 
 <img width="2048" height="2048" alt="image" src="https://github.com/user-attachments/assets/ee54747b-b78a-4327-95bc-846206615b6d" />
 
-**🎯 Project Goal**
+
+****🎯 Project Goal****
 
 The primary goal of this analysis is to:
 
@@ -21,7 +22,8 @@ The primary goal of this analysis is to:
 
 **Provide Actionable Insights:** Deliver clear, data-driven recommendations to the product and engineering teams.
 
-**funnel The Conversion Funnel**
+
+****funnel The Conversion Funnel****
 
 The website's conversion funnel is defined by four sequential pages:
 
@@ -33,7 +35,8 @@ The website's conversion funnel is defined by four sequential pages:
 
 **Payment Confirmation Page (/confirmation):** The final conversion step after a successful purchase.
 
-**💾 Data Sources**
+
+****💾 Data Sources****
 
 The analysis merges data from five separate files to build a complete view of the user journey.
 
@@ -47,7 +50,9 @@ The analysis merges data from five separate files to build a complete view of th
 
 **payment_confirmation_table.csv:** (Required by Notebook) A log of users who successfully completed a purchase.
 
-**📈 Analysis Workflow**
+
+
+****📈 Analysis Workflow****
 
 The Funnel_Analysis.ipynb notebook follows a structured workflow:
 
@@ -64,7 +69,8 @@ This master funnel table is then inner-joined with the user_table to enrich the 
 The data is grouped by date and device to calculate the daily conversion rates for each step of the funnel.
 These daily rates are plotted to identify when specific conversion problems began.
 
-**💡 Key Findings & Actionable Insights**
+
+****💡 Key Findings & Actionable Insights****
 
 The analysis uncovered two distinct and critical problems:
 
@@ -88,7 +94,8 @@ Running user experience (UX) research sessions with desktop users.
 A/B testing different layouts, calls-to-action, and form designs on the desktop search and payment pages.
 Investigating potential sources of friction, such as a complex checkout process on desktop.
 
-**📊 Visualizations in the Notebook**
+
+****📊 Visualizations in the Notebook****
 
 The analysis notebook generates several key visualizations to support these findings:
 
@@ -98,7 +105,8 @@ The analysis notebook generates several key visualizations to support these find
 
 **Daily Conversion Rates (Time-Series):** Line plots showing the daily conversion rates for each funnel step, segmented by device, which clearly highlights the drop in early March.
 
-**🚀 How to Run the Analysis**
+
+****🚀 How to Run the Analysis****
 
 **Clone the repository:**
 
